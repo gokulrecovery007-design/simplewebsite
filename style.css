@@ -1,0 +1,6 @@
+/* We are using Tailwind CSS, which is loaded via the CDN link in the HTML. */
+/* This file can be used for any custom CSS overrides or additional styles not covered by Tailwind. */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
