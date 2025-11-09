@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurTone - Offline Remote Access Security</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">SecurTone</h1>
+            <div class="space-x-4">
+                <a href="#features" class="text-gray-600 hover:text-blue-600">Features</a>
+                <a href="#problem" class="text-gray-600 hover:text-blue-600">The Problem</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                    Contact Us
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="bg-white">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h2 class="text-4xl font-bold text-gray-900 md:text-5xl">
+                    Smart Security. No Internet Required.
+                </h2>
+                <p class="mt-4 text-lg text-gray-600 md:text-xl">
+                    Our low-cost, offline security system gives you remote, phone-based access control.
+                </p>
+                <p class="mt-2 text-lg text-gray-600 md:text-xl">
+                    Simple, secure control using any phone keypad.
+                </p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="#features" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
+                        Learn More
+                    </a>
+                    <a href="#contact" class="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-300 transition">
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-bold text-center text-gray-900">Your Access, Your Control</h3>
+                <p class="text-center text-gray-600 mt-2 text-lg">Key benefits for your peace of mind.</p>
+                
+                <div class="mt-12 grid gap-8 md:grid-cols-3">
+                    <!-- Feature 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="flex justify-center items-center w-12 h-12 bg-blue-100 text-blue-600 rounded-full mx-auto" id="icon-phone"></div>
+                        <h4 class="font-bold text-xl mt-4">Simple Phone-Keypad Control</h4>
+                        <p class="text-gray-600 mt-2">
+                            Gain access or manage users easily using simple phone-tone commands. No app or complex software needed.
+                        </p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="flex justify-center items-center w-12 h-12 bg-blue-100 text-blue-600 rounded-full mx-auto" id="icon-wifiOff"></div>
+                        <h4 class="font-bold text-xl mt-4">100% Offline Operation</h4>
+                        <p class="text-gray-600 mt-2">
+                            Reliable performance that doesn't depend on an internet connection. Protects against hacking and works anywhere.
+                        </p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="flex justify-center items-center w-12 h-12 bg-blue-100 text-blue-600 rounded-full mx-auto" id="icon-shield"></div>
+                        <h4 class="font-bold text-xl mt-4">Secure & Low-Cost</h4>
+                        <p class="text-gray-600 mt-2">
+                            Get advanced security and remote access without the high cost or complex setup of traditional smart systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem" class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h3 class="text-3xl font-bold text-center text-gray-900">The Problem with Traditional Security</h3>
+                <p class="text-center text-gray-600 mt-4 text-lg">
+                    Many homes, offices, and facilities rely on systems vulnerable to theft or hacking. Advanced electronic security is often expensive and requires complex setup or constant internet connectivity, limiting its accessibility.
+                </Details>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="contact" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6 text-center">
+                <h3 class="text-3xl font-bold">Secure Your Property Today</h3>
+                <p class="mt-4 text-lg text-gray-700">
+                    Ready to learn more? Contact us for a demo or to discuss your security needs.
+                </p>
+                
+                <!-- Simple Contact Form -->
+                <div class="max-w-lg mx-auto mt-8 bg-white p-8 rounded-lg shadow-lg">
+                    <h4 class="text-2xl font-bold mb-6 text-gray-900">Contact Us</h4>
+                    <form id="contact-form">
+                        <div class="mb-4 text-left">
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="Your Name">
+                        </div>
+                        <div class="mb-4 text-left">
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="you@example.com">
+                        </div>
+                        <div class="mb-6 text-left">
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="How can we help?"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
+                            Send Message
+                        </button>CSS
+                    </form>
+                    <div id="form-message" class="mt-4 text-green-600"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 SecurTone. All rights reserved.</p>
+            <p class="mt-2 text-sm">123 Security Lane, Offline, USA</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
